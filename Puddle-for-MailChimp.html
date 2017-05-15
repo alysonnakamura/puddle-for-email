@@ -25,6 +25,16 @@
 		/*@editable*/background-color:#eeeeee !important;
 	}
 
+	  /*
+  @tab Puddle Settings
+  @section Call-to-Action
+  */ 
+    .button{
+      /*@editable*/background-color:#369ff4 !important;
+      /*@editable*/border-radius:3px !important;
+      /*@editable*/color:#ffffff !important;
+    }
+
 	/*   
 	@tab Header
 	@section Spacer Only
@@ -1731,6 +1741,38 @@
 											<span class="conditional cw-background-color" mc:edit="body_colorblock-section-secondary-endif">*|IF:CONDITIONAL|**|END:IF|*</span>
 										</div>
 										<!-- COLORBLOCK SECTION COMPONENT //-->
+
+										<!-- CTA COMPONENT  -->
+										<div id="body_single-column-text-secondary">
+											<span class="conditional cw-background-color" mc:edit="body_single-column-text-secondary-if">*|IF:CONDITIONAL|**|END:IF|*</span>
+											<table width="650" bgcolor="#ffffff" border="0" align="center" cellpadding="0" cellspacing="0" class="wrapper" style="table-layout:fixed;" mc:repeatable mc:variant="Large Image">
+												<tr>
+													<td height="30" style="line-height:0px;font-size:0px;"> </td>
+												</tr>
+												<tr>
+													<td class="pad_side">
+														<table width="650" border="0" cellspacing="0" cellpadding="0" class="wrapper">
+															<tr>
+																<td width="45" class="hide"> </td>
+																<td>
+																	<table class="button" style="border-radius:3px;background-color:#369ff4" border="0" cellspacing="0" cellpadding="0">
+																		<tr>
+																		<td width="20" height="60"> </td>
+																			<td height="60" align="center" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:16px;line-height:18px;color:#ffffff;" mc:edit="body_cta-text">
+																				<a href="#" target="_blank" style="text-decoration:none;color:#ffffff;" class="button">CALL TO ACTION</a></td>
+																		<td width="20" height="60"> </td>
+																		</tr>
+																	</table>
+																</td>
+																<td width="45" class="hide"> </td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<span class="conditional cw-background-color" mc:edit="body_single-column-text-secondary-endif">*|IF:CONDITIONAL|**|END:IF|*</span>
+										</div>
+										<!-- CTA COMPONENT //-->
 
 										<!-- END SECONDARY SECTION //-->
 
