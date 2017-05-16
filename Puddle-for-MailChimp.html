@@ -16,6 +16,12 @@
     <meta http-equiv="x-ua-compatible" content="IE=edge">
     <title>charity: water</title>
 
+		<!--[if mso]>
+		<style type="text/css">
+		body, table, td {font-family: Helvetica, Arial, sans-serif !important;}
+		</style>
+		<![endif]-->
+		
     <style type="text/css">
 
 	/*
@@ -50,7 +56,15 @@
 	*/
 	#header_spacer-only{
 		/*@editable*/display:block !important;
-	}   
+	}
+
+	/*   
+	@tab Header
+	@section Spacer Only (MSO)
+	*/
+	#header_spacer-only table{
+		/*@editable*/display:table !important;
+	}
 
 	/*   
 	@tab Header
@@ -58,6 +72,14 @@
 	*/
 	#header_nav-bottom{
 		/*@editable*/display:block !important;
+	}
+
+	/*   
+	@tab Header
+	@section Nav on Bottom (MSO)
+	*/
+	#header_nav-bottom table{
+		/*@editable*/display:table !important;
 	}
 
 	/*
@@ -70,18 +92,42 @@
 
 	/*
 	@tab Header
+	@section Nav on Right (MSO)
+	*/
+	#header_nav-right table{
+		/*@editable*/display:table !important;
+	}
+
+	/*
+	@tab Header
 	@section Logo Only
 	*/
 	#header_logo-only{
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Header
+	@section Logo Only (MSO)
+	*/
+	#header_logo-only table{
+		/*@editable*/display:table !important;
 	}
 	
 	/*
 	@tab Primary Content
 	@section Hero Image
 	*/
-	#body_hero-image{
+	#body_hero-image,#body_hero-image .conditional{
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Primary Content
+	@section Hero Image (MSO)
+	*/
+	#body_hero-image table{
+		/*@editable*/display:table !important;
 	}
 
 	/*
@@ -90,6 +136,14 @@
 	*/
 	#body_colorblock-banner{
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Primary Content
+	@section Colorblock Banner (MSO)
+	*/
+	#body_colorblock-banner table{
+		/*@editable*/display:table !important;
 	}
 
 	/*
@@ -110,10 +164,26 @@
 
 	/*
 	@tab Primary Content
+	@section Title Section (MSO)
+	*/
+	#body_title-section table{
+		/*@editable*/display:table !important;
+	}
+
+	/*
+	@tab Primary Content
 	@section Colorblock Section
 	*/
 	#body_colorblock-section-primary{
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Primary Content
+	@section Colorblock Section (MSO)
+	*/
+	#body_colorblock-section-primary table{
+		/*@editable*/display:table !important;
 	}
 
 	/*
@@ -134,10 +204,26 @@
 
 	/*
 	@tab Primary Content
+	@section Colorblock Section Borders (MSO)
+	*/
+	.section-border-primary table{
+		/*@editable*/display:table !important;
+	}
+
+	/*
+	@tab Primary Content
 	@section Single Column Text
 	*/
-	#body_single-column-text-primary {
+	#body_single-column-text-primary{
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Primary Content
+	@section Single Column Text (MSO)
+	*/
+	#body_single-column-text-primary table {
+		/*@editable*/display:table !important;
 	}
 
 	/*
@@ -150,10 +236,26 @@
 
 	/*
 	@tab Primary Content
+	@section Two Column Text (MSO)
+	*/
+	#body_two-column-text-primary table {
+		/*@editable*/display:table !important;
+	}
+
+	/*
+	@tab Primary Content
 	@section Block Quote
 	*/
 	#body_block-quote-primary {
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Primary Content
+	@section Block Quote (MSO)
+	*/
+	#body_block-quote-primary table {
+		/*@editable*/display:table !important;
 	}
 
 	/*
@@ -166,10 +268,26 @@
 
 	/*
 	@tab Secondary Content
+	@section Three Up with Images (MSO)
+	*/
+	#body_three-up-with-images table {
+		/*@editable*/display:table !important;
+	}
+
+	/*
+	@tab Secondary Content
 	@section Two Up with Images
 	*/
 	#body_two-up-with-images {
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Secondary Content
+	@section Two Up with Images (MSO)
+	*/
+	#body_two-up-with-images table {
+		/*@editable*/display:table !important;
 	}
 
 	/*
@@ -182,10 +300,26 @@
 
 	/*
 	@tab Secondary Content
+	@section List with Images (MSO)
+	*/
+	#body_list-with-images table {
+		/*@editable*/display:table !important;
+	}
+
+	/*
+	@tab Secondary Content
 	@section Large Image
 	*/
 	#body_large-image {
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Secondary Content
+	@section Large Image (MSO)
+	*/
+	#body_large-image table {
+		/*@editable*/display:table !important;
 	}
 
 	/*
@@ -198,10 +332,26 @@
 
 	/*
 	@tab Secondary Content
+	@section Full Width Image (MSO)
+	*/
+	#body_full-width-image table {
+		/*@editable*/display:table !important;
+	}
+
+	/*
+	@tab Secondary Content
 	@section Side by Side Images
 	*/
-	#body_side-by-side-images {
+	#body_side-by-side-images{
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Secondary Content
+	@section Side by Side Images (MSO)
+	*/
+	#body_side-by-side-images table {
+		/*@editable*/display:table !important;
 	}
 
 	/*
@@ -214,10 +364,26 @@
 
 	/*
 	@tab Secondary Content
+	@section Gallery (MSO)
+	*/
+	#body_image-gallery table {
+		/*@editable*/display:table !important;
+	}
+
+	/*
+	@tab Secondary Content
 	@section Single Column Text
 	*/
 	#body_single-column-text-secondary {
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Secondary Content
+	@section Single Column Text (MSO)
+	*/
+	#body_single-column-text-secondary table {
+		/*@editable*/display:table !important;
 	}
 
 	/*
@@ -230,6 +396,14 @@
 
 	/*
 	@tab Secondary Content
+	@section Two Column Text (MSO)
+	*/
+	#body_two-column-text-secondary table {
+		/*@editable*/display:table !important;
+	}
+
+	/*
+	@tab Secondary Content
 	@section Block Quote
 	*/
 	#body_block-quote-secondary {
@@ -238,10 +412,26 @@
 
 	/*
 	@tab Secondary Content
+	@section Block Quote (MSO)
+	*/
+	#body_block-quote-secondary table {
+		/*@editable*/display:table !important;
+	}
+
+	/*
+	@tab Secondary Content
 	@section Colorblock Section
 	*/
 	#body_colorblock-section-secondary{
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Secondary Content
+	@section Colorblock Section (MSO)
+	*/
+	#body_colorblock-section-secondary table{
+		/*@editable*/display:table !important;
 	}
 
 	/*
@@ -262,10 +452,42 @@
 
 	/*
 	@tab Secondary Content
+	@section Colorblock Section Borders (MSO)
+	*/
+	.section-border-secondary table{
+		/*@editable*/display:table !important;
+	}
+
+	/*
+	@tab Secondary Content
 	@section Call to Action
 	*/
 	#body_cta{
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Secondary Content
+	@section Call to Action (MSO)
+	*/
+	#body_cta table{
+		/*@editable*/display:table !important;
+	}
+
+	/*   
+	@tab Footer
+	@section Spacer
+	*/
+	#footer_spacer{
+		/*@editable*/display:block !important;
+	}
+
+		/*   
+	@tab Footer
+	@section Spacer (MSO)
+	*/
+	#footer_spacer table{
+		/*@editable*/display:table !important;
 	}
 
 	/*   
@@ -276,12 +498,28 @@
 		/*@editable*/display:block !important;
 	}
 
+	/*   
+	@tab Footer
+	@section Extended (MSO)
+	*/
+	#footer_extended table{
+		/*@editable*/display:table !important;
+	}
+
 	/*
 	@tab Footer
 	@section Minimal
 	*/
 	#footer_minimal{
 		/*@editable*/display:block !important;
+	}
+
+	/*
+	@tab Footer
+	@section Minimal (MSO)
+	*/
+	#footer_minimal table{
+		/*@editable*/display:table !important;
 	}
 
 	body{
@@ -541,7 +779,7 @@
 																				<table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper">
 																					<tr>
 																						<td style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:12px;line-height:15px;color:#333333;" align="center" mc:edit="header_spacer-only-help-text">
-																							<span style="display:inline-block; height:0px; font-size:0px;">Preview Text</span>
+																							<span style="display:inline-block; height:0px; font-size:0px; mso-hide:all;">Preview Text</span>
 																							<span class="cw-black">Can’t see this email?</span> <a href="*|ARCHIVE|*" target="_blank" style="color:#369ff4;text-decoration:none;">View it in your browser.</a>
 																						</td>
 																					</tr>
@@ -560,7 +798,7 @@
 												</tr>
 											</table>
 										</div>
-										<!-- NO HEADER //-->
+										<!-- SPACER //-->
 
 										<!-- NAV ON BOTTOM  -->
 										<div id="header_nav-bottom">
@@ -579,7 +817,7 @@
 																				<table width="250" border="0" cellspacing="0" cellpadding="0" align="left" class="wrapper">
 																					<tr>
 																						<td class="cw-black" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:12px;line-height:15px;color:#333333;" align="left" mc:edit="header_nav-bottom-help-text">
-																							<span style="display:inline-block; height:0px; font-size:0px;">Preview Text</span><span class="cw-black">Can’t see this email?</span>
+																							<span style="display:inline-block; height:0px; font-size:0px; mso-hide:all;">Preview Text</span><span class="cw-black">Can’t see this email?</span>
 																						</td>
 																					</tr>
 																				</table>
@@ -669,7 +907,7 @@
 																			<td>
 																				<table width="250" border="0" cellspacing="0" cellpadding="0" align="left" class="wrapper">
 																					<tr>
-																						<td class="cw-black" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:12px;line-height:15px;color:#333333;" align="left" mc:edit="header_nav-right-help-text"><span style="display:inline-block; height:0px; font-size:0px;">Preview Text</span><span class="cw-black">Can’t see this email?</span>
+																						<td class="cw-black" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:12px;line-height:15px;color:#333333;" align="left" mc:edit="header_nav-right-help-text"><span style="display:inline-block; height:0px; font-size:0px; mso-hide:all;">Preview Text</span><span class="cw-black">Can’t see this email?</span>
 																						</td>
 																					</tr>
 																				</table>
@@ -767,7 +1005,7 @@
 																				<table width="600" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper">
 																					<tr>
 																						<td style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:12px;line-height:15px;color:#333333;" align="center" mc:edit="header_logo-only-help-text">
-																							<span style="display:inline-block; height:0px; font-size:0px;">Preview Text</span>
+																							<span style="display:inline-block; height:0px; font-size:0px; mso-hide:all;">Preview Text</span>
 																							<span class="cw-black">Can’t see this email?</span> <a href="*|ARCHIVE|*" target="_blank" style="color:#369ff4;text-decoration:none;">View it in your browser.</a>
 																						</td>
 																					</tr>
@@ -872,7 +1110,7 @@
 								<span class="conditional cw-background-color" mc:edit="body_colorblock-banner-if">*|IF:CONDITIONAL|**|END:IF|*</span>
 								<table width="650" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper" mc:repeatable mc:variant="Colorblock Banner" style="table-layout:fixed;">
 									<tr>
-										<td class="body_colorblock-banner-bg" align="center" valign="top" bgcolor="#f5f5f5">
+										<td class="body_colorblock-banner-bg" align="center" valign="top">
 											<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
 												<tr>
 													<td width="30" class="hide"> </td>
@@ -911,7 +1149,7 @@
 													<td height="50" style="line-height:1px;font-size:1px;"> </td>
 												</tr>
 												<tr>
-													<td class="cw-blue" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:24px;line-height:27px;color:#369ff4;" mc:edit="body_title-section-text">Your $*|AMOUNT|* donation will help bring clean and safe water to communities in need.</td>
+													<td align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:24px;line-height:27px;color:#369ff4;" mc:edit="body_title-section-text">Your $*|AMOUNT|* donation will help bring clean and safe water to communities in need.</td>
 												</tr>
 												<tr>
 													<td height="20" style="line-height:1px;font-size:1px;" class="fix_height"> </td>
@@ -933,7 +1171,7 @@
 										<td height="30" class="fix_height"> </td>
 									</tr>
 									<tr>
-										<td class="body_colorblock-section-primary-bg" align="center" valign="top" style="background-color:#369ff4">
+										<td class="body_colorblock-section-primary-bg" align="center" valign="top">
 											<!-- TOP BORDER IMAGE  -->
 											<div class="section-border-primary">
 												<table bgcolor="#ffffff" width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper" mc:repeatable mc:variant="Border" style="table-layout:fixed;">
@@ -953,7 +1191,7 @@
 																<td height="30" class="fix_height"> </td>
 															</tr>
 															<tr>
-																<td class="white" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;color:#ffffff;" mc:edit="body_colorblock-section-primary-text">Neque porro quisquam est qui dolorem ipsum</td>
+																<td align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;color:#ffffff;text-align:left;" mc:edit="body_colorblock-section-primary-text">Neque porro quisquam est qui dolorem ipsum</td>
 															</tr>
 															<tr>
 																<td height="30" class="fix_height"> </td>
@@ -1027,7 +1265,7 @@
 													<td>
 														<table width="265" border="0" align="left" cellpadding="0" cellspacing="0" class="wrapper">
 															<tr>
-																<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_two-column-text-primary-text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mattis urna. Cras ut bibendum enim. Fusce sit amet blandit sapien. Praesent finibus urna mauris, a pharetra ante.</td>
+																<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_two-column-text-primary-text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mattis urna. Cras ut bibendum enim. Fusce sit amet blandit sapien. Praesent finibus urna mauris, a pharetra ante.</td>
 															</tr>
 														</table>
 														<table width="265" border="0" cellspacing="0" cellpadding="0" align="right" class="wrapper">
@@ -1035,7 +1273,7 @@
 																<td class="pad_top">
 																	<table width="265" border="0" align="center" cellpadding="0" cellspacing="0" class="wrapper">
 																		<tr>
-																			<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_two-column-text-primary-text-2">Sed tempus molestie interdum. Duis tempus bibendum ante nec gravida. Nunc nec mi nec mi consectetur vulputate vel ut leo. Etiam ut posuere arcu.</td>
+																			<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_two-column-text-primary-text-2">Sed tempus molestie interdum. Duis tempus bibendum ante nec gravida. Nunc nec mi nec mi consectetur vulputate vel ut leo. Etiam ut posuere arcu.</td>
 																		</tr>
 																	</table>
 																</td>
@@ -1068,7 +1306,7 @@
 														<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-left:3px solid;border-color:#dfdfd7;">
 															<tr>
 																<td width="30"> </td>
-																<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_block-quote-primary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mattis urna. Cras ut bibendum enim. Fusce sit amet blandit sapien. Praesent finibus urna mauris, a pharetra ante ornare a. Sed tempus molestie interdum.</td>
+																<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_block-quote-primary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mattis urna. Cras ut bibendum enim. Fusce sit amet blandit sapien. Praesent finibus urna mauris, a pharetra ante ornare a. Sed tempus molestie interdum.</td>
 															</tr>
 														</table>
 													</td>
@@ -1125,7 +1363,7 @@
 																									<td height="13" style="line-height:0px;font-size:0px;"> </td>
 																								</tr>
 																								<tr>
-																									<td align="left" class="grey-60" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_three-up-with-images-text-1">Pellentesque vitae lorem ipsum dol amet, consectetur adipiscing elit.</td>
+																									<td align="left" class="grey-60" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_three-up-with-images-text-1">Pellentesque vitae lorem ipsum dol amet, consectetur adipiscing elit.</td>
 																								</tr>
 																							</table>
 																						</td>
@@ -1156,7 +1394,7 @@
 																									<td height="13" style="line-height:0px;font-size:0px;"> </td>
 																								</tr>
 																								<tr>
-																									<td align="left" class="grey-60" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_three-up-with-images-text-2">Pellentesque vitae lorem ipsum dol amet, consectetur adipiscing elit.</td>
+																									<td align="left" class="grey-60" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_three-up-with-images-text-2">Pellentesque vitae lorem ipsum dol amet, consectetur adipiscing elit.</td>
 																								</tr>
 																							</table>
 																						</td>
@@ -1190,7 +1428,7 @@
 																						<td height="13" style="line-height:0px;font-size:0px;"> </td>
 																					</tr>
 																					<tr>
-																						<td align="left" class="grey-60" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_three-up-with-images-text-3">Pellentesque vitae lorem ipsum dol amet, consectetur adipiscing elit.</td>
+																						<td align="left" class="grey-60" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_three-up-with-images-text-3">Pellentesque vitae lorem ipsum dol amet, consectetur adipiscing elit.</td>
 																					</tr>
 																				</table>
 																			</td>
@@ -1241,7 +1479,7 @@
 																			<td height="8" style="line-height:1px;font-size:1px;"> </td>
 																		</tr>
 																		<tr>
-																			<td class="grey-60" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_two-up-with-images-text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula.</td>
+																			<td class="grey-60" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_two-up-with-images-text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula.</td>
 																		</tr>
 																	</table>
 																</td>
@@ -1278,7 +1516,7 @@
 																			<td height="8" style="line-height:1px;font-size:1px;"> </td>
 																		</tr>
 																		<tr>
-																			<td class="grey-60" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_two-up-with-images-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula.</td>
+																			<td class="grey-60" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_two-up-with-images-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula.</td>
 																		</tr>
 																	</table>
 																</td>
@@ -1340,7 +1578,7 @@
 																			<td height="8" style="line-height:1px;font-size:1px;"> </td>
 																		</tr>
 																		<tr>
-																			<td class="grey-60" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_list-with-images-text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et.</td>
+																			<td class="grey-60" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_list-with-images-text-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et.</td>
 																		</tr>
 																	</table>
 																</td>
@@ -1393,7 +1631,7 @@
 																			<td height="8" style="line-height:1px;font-size:1px;"> </td>
 																		</tr>
 																		<tr>
-																			<td class="grey-60" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_list-with-images-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et.</td>
+																			<td class="grey-60" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_list-with-images-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et.</td>
 																		</tr>
 																	</table>
 																</td>
@@ -1446,7 +1684,7 @@
 																			<td height="8" style="line-height:1px;font-size:1px;"> </td>
 																		</tr>
 																		<tr>
-																			<td class="grey-60" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_list-with-images-text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et.</td>
+																			<td class="grey-60" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_list-with-images-text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vitae interdum ligula. Pellentesque feugiat ligula ligula, in interdum dolor aliquet et.</td>
 																		</tr>
 																	</table>
 																</td>
@@ -1619,15 +1857,15 @@
 																<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:24px;color:#71716c;" mc:edit="body_single-column-text-secondary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mattis urna. Cras ut bibendum enim. Fusce sit amet blandit sapien. Praesent finibus urna mauris, a pharetra ante ornare a. Sed tempus molestie interdum. Duis tempus bibendum ante nec gravida. Nunc nec mi nec mi consectetur vulputate vel ut leo. Etiam ut posuere arcu. Morbi eget nibh dignissim dolor placerat mollis. Donec sit amet mi enim. Cras feugiat tellus vel justo porttitor vulputate. Vivamus ut nunc eu lectus fringilla porta non luctus odio. Fusce nec leo tellus. Morbi egestas et dolor sed varius.
 
 																	Quisque eget sapien urna. Proin a lectus in justo porttitor lacinia et sit amet neque. Nulla ultricies purus sed turpis mollis dignissim. Vestibulum dictum at orci non molestie. Nam sollicitudin mattis risus, quis tempor lectus tempor ut. Nullam erat tortor, ornare eu tempus ornare, pulvinar viverra urna. Mauris vestibulum risus eu est faucibus, id tristique mauris varius. Morbi ullamcorper in nunc sed commodo. Fusce vitae velit tincidunt, cursus neque at, ultrices urna.</td>
-																</tr>
-															</table>
-														</td>
-														<td width="95" class="hide"> </td>
-													</tr>
-												</table>
-											</td>
-										</tr>
-									</table>
+															</tr>
+														</table>
+													</td>
+													<td width="95" class="hide"> </td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
 									<span class="conditional cw-background-color" mc:edit="body_single-column-text-secondary-endif">*|IF:CONDITIONAL|**|END:IF|*</span>
 								</div>
 								<!-- SINGLE COLUMN TEXT COMPONENT //-->
@@ -1647,31 +1885,31 @@
 														<td>
 															<table width="265" border="0" align="left" cellpadding="0" cellspacing="0" class="wrapper">
 																<tr>
-																	<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_two-column-text-secondary-text-1"> 	
+																	<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_two-column-text-secondary-text-1"> 	
 																		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mattis urna. Cras ut bibendum enim. Fusce sit amet blandit sapien. Praesent finibus urna mauris, a pharetra ante.</td>
-																	</tr>
-																</table>
-																<table width="265" border="0" cellspacing="0" cellpadding="0" align="right" class="wrapper">
-																	<tr>
-																		<td class="pad_top">
-																			<table width="265" border="0" align="center" cellpadding="0" cellspacing="0" class="wrapper">
-																				<tr>
-																					<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_two-column-text-secondary-text-2"> 	
+																</tr>
+															</table>
+															<table width="265" border="0" cellspacing="0" cellpadding="0" align="right" class="wrapper">
+																<tr>
+																	<td class="pad_top">
+																		<table width="265" border="0" align="center" cellpadding="0" cellspacing="0" class="wrapper">
+																			<tr>
+																				<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_two-column-text-secondary-text-2"> 	
 																						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mattis urna. Cras ut bibendum enim. Fusce sit amet blandit sapien. Praesent finibus urna mauris, a pharetra ante.</td>
-																					</tr>
-																				</table>
-																			</td>
-																		</tr>
-																	</table>
-																</td>
-																<td width="45" class="hide"> </td>
-															</tr>
-														</table>
-													</td>
-												</tr>
-											</table>
-											<span class="conditional cw-background-color" mc:edit="body_two-column-text-secondary-endif">*|IF:CONDITIONAL|**|END:IF|*</span>
-										</div>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+														<td width="45" class="hide"> </td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+									<span class="conditional cw-background-color" mc:edit="body_two-column-text-secondary-endif">*|IF:CONDITIONAL|**|END:IF|*</span>
+								</div>
 										<!-- TWO COLUMN TEXT COMPONENT //-->
 
 										<!-- BLOCK QUOTE COMPONENT  -->
@@ -1690,7 +1928,7 @@
 																	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-left:3px solid;border-color:#dfdfd7;">
 																		<tr>
 																			<td width="30"> </td>
-																			<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:13px;line-height:20px;color:#71716c;" mc:edit="body_block-quote-secondary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mattis urna. Cras ut bibendum enim. Fusce sit amet blandit sapien. Praesent finibus urna mauris, a pharetra ante ornare a. Sed tempus molestie interdum.</td>
+																			<td align="left" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:14px;line-height:20px;color:#71716c;" mc:edit="body_block-quote-secondary-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut mattis urna. Cras ut bibendum enim. Fusce sit amet blandit sapien. Praesent finibus urna mauris, a pharetra ante ornare a. Sed tempus molestie interdum.</td>
 																		</tr>
 																	</table>
 																</td>
@@ -1712,7 +1950,7 @@
 													<td height="30" class="fix_height"> </td>
 												</tr>
 												<tr>
-													<td class="body_colorblock-section-secondary-bg" align="center" valign="top" style="background-color:#369ff4">
+													<td class="body_colorblock-section-secondary-bg" align="center" valign="top">
 														<!-- TOP BORDER IMAGE  -->
 														<div class="section-border-secondary">
 															<table bgcolor="#ffffff" width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper" mc:repeatable mc:variant="Border" style="table-layout:fixed;">
@@ -1732,7 +1970,7 @@
 																			<td height="30" class="fix_height"> </td>
 																		</tr>
 																		<tr>
-																			<td class="white" align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;color:#ffffff;" mc:edit="section2_maintitle">Neque porro quisquam est qui dolorem ipsum</td>
+																			<td align="left" valign="top" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;color:#ffffff;text-align:left;" mc:edit="section2_maintitle">Neque porro quisquam est qui dolorem ipsum</td>
 																		</tr>
 																		<tr>
 																			<td height="30" class="fix_height"> </td>
@@ -1764,10 +2002,10 @@
 											<span class="conditional cw-background-color" mc:edit="body_cta-if">*|IF:CONDITIONAL|**|END:IF|*</span>
 											<table width="650" bgcolor="#ffffff" border="0" align="center" cellpadding="0" cellspacing="0" class="wrapper" style="table-layout:fixed;" mc:repeatable mc:variant="CTA">
 												<tr>
-													<td height="30" style="line-height:0px;font-size:0px;"> </td>
+												<td height="30" style="line-height:0px;font-size:0px;"> </td>
 												</tr>
 												<tr>
-													<td class="pad_side">
+													<td height="60" class="pad_side">
 														<table width="650" border="0" cellspacing="0" cellpadding="0" class="wrapper">
 															<tr>
 																<td width="45" class="hide"> </td>
@@ -1775,21 +2013,20 @@
 																	<table class="button" height="60" style="border-radius:3px;background-color:#369ff4" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed";>
 																		<tr>
 																			<td width="20" height="60"> </td>
-																			<td height="60" align="center" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:16px;line-height:18px;color:#ffffff;" mc:edit="body_cta-button">
-																				<a href="#" target="_blank" style="text-decoration:none;color:#ffffff;" class="button">CALL TO ACTION</a></td>
-																				<td width="20" height="60"> </td>
-																			</tr>
-																		</table>
-																	</td>
-																	<td width="45" class="hide"> </td>
-																</tr>
-															</table>
-														</td>
-													</tr>
-												</table>
-												<span class="conditional cw-background-color" mc:edit="body_cta-endif">*|IF:CONDITIONAL|**|END:IF|*</span>
-											</div>
-											<!-- CTA COMPONENT //-->
+																			<td height="60" align="center" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:16px;line-height:18px;color:#ffffff;" mc:edit="body_cta-button"><a href="#" target="_blank" style="text-decoration:none;color:#ffffff;" class="button">CALL TO ACTION</a></td>
+																			<td width="20" height="60"> </td>
+																		</tr>
+																	</table>
+																</td>
+																<td width="45" class="hide"> </td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+											<span class="conditional cw-background-color" mc:edit="body_cta-endif">*|IF:CONDITIONAL|**|END:IF|*</span>
+										</div>
+										<!-- CTA COMPONENT //-->
 
 											<!-- END SECONDARY SECTION //-->
 
@@ -1805,11 +2042,15 @@
 					<table class="cw-background-color" width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
 						<tr>
 							<td align="center">
-								<div id="footer_extended">
+							<div id="footer_spacer">
 									<table width="650" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper">
 										<tr>
 											<td height="30" class="fix_height"> </td>
 										</tr>
+										</table>
+										</div>
+								<div id="footer_extended">
+									<table width="650" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper">
 										<tr>
 											<td>
 												<table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper" mc:repeatable mc:variant="Footer - Extended" style="border-top:1px solid #dfdfd7;">
@@ -1988,9 +2229,6 @@
 								</div>
 								<div id="footer_minimal">
 									<table width="650" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper" mc:repeatable mc:variant="Footer - Minimal">
-										<tr>
-											<td height="30" class="fix_height"> </td>
-										</tr>
 										<tr>
 											<td bgcolor="#eeeeee" class="pad_side">
 												<table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper">
