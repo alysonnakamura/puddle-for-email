@@ -3,6 +3,8 @@ Lorem ipsum dolor sit amet
 {% include mc_header-spacer.html %}
 </div>
 
+<div style="font-size:12px;">
 {% highlight html %}
 {% include mc_header-spacer.html %}
 {% endhighlight %}
+</div>
