@@ -3,6 +3,6 @@ Lorem ipsum dolor sit amet
 {% include mc_header-spacer.html %}
 </div>
 
-```html
+{% highlight html %}
 {% include mc_header-spacer.html %}
-```
+{% endhighlight %}
