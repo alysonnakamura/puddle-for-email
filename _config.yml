@@ -1,1 +1,5 @@
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
 source: builder
+baseurl: "/puddle-for-email"
