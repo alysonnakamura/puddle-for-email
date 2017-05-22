@@ -1,12 +1,12 @@
 .highlight {
-  background-color: #eee;
+  background-color: #f7f7f7;
   width: 90%;
   max-height: 400px;
   overflow: scroll;
   border: 1px solid #e9eae4;
+  border-radius: 4px;
 }
 
 pre {
   margin: 1em;
-  background-color: #f7f7f7;
 }
