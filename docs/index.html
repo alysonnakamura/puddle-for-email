@@ -3,12 +3,16 @@ layout: builder
 title: Home
 ---
 
-<input type="radio" name="test" value="mc_header-spacer.html">
-<input type="radio" name="test" value="">
+<input type="radio" class="test-control" name="test" value="mc_header-spacer.html" id="header_spacer">
+      <label for="header_spacer">Header - spacer</label>
 
+<input type="radio" class="test-control" name="test" value="" id="blank">
+      <label for="blank">Blank</label>
+<div id="code-example">
 {% highlight html %}
 {% include mc_header-spacer.html %}
 {% endhighlight %}
+</div>
 
 		<table class="cw-background-color" width="100%" border="0" align="center" cellspacing="0" cellpadding="0">
 			<tr>
