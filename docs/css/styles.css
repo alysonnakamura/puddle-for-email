@@ -16,3 +16,41 @@ pre {
   white-space: -o-pre-wrap;    /* Opera 7 */
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
+
+body {
+  background-color: #ffffff;
+}
+input.S {
+  display: none;
+}
+label, input {
+  cursor: pointer;
+}
+@media only screen and (max-width: 610px), only screen and (max-device-width: 610px) {
+  .widthMobile {
+    width: 320px !important;
+  }
+  .widthFull {
+    width: 100% !important;
+  }
+  .widthAuto {
+    width: auto !important;
+  }
+  .photo {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .paddingRightNone {
+    padding-right: 0 !important;
+  }
+  .paddingRightLeft10 {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+}
+#S1C1:checked~* .choiceS1C1, #S1C2:checked~* .choiceS1C2, #S1C3:checked~* .choiceS1C3, #S1C4:checked~* .choiceS1C4, #S1C5:checked~* .choiceS1C5, #S1C6:checked~* .choiceS1C6, #S2C1:checked~* .choiceS2C1, #S2C2:checked~* .choiceS2C2, #S2C3:checked~* .choiceS2C3, #S2C4:checked~* .choiceS2C4, #S2C5:checked~* .choiceS2C5, #S2C6:checked~* .choiceS2C6, #S3C1:checked~* .choiceS3C1, #S3C2:checked~* .choiceS3C2, #S3C3:checked~* .choiceS3C3, #S3C4:checked~* .choiceS3C4, #S3C5:checked~* .choiceS3C5, #S3C6:checked~* .choiceS3C6, #S4C1:checked~* .choiceS4C1, #S4C2:checked~* .choiceS4C2, #S4C3:checked~* .choiceS4C3, #S4C4:checked~* .choiceS4C4, #S4C5:checked~* .choiceS4C5, #S4C6:checked~* .choiceS4C6, #S5C1:checked~* .choiceS5C1, #S5C2:checked~* .choiceS5C2, #S5C3:checked~* .choiceS5C3, #S5C4:checked~* .choiceS5C4, #S5C5:checked~* .choiceS5C5, #S5C6:checked~* .choiceS5C6 {
+  border:1px solid #e68578 !important;
+}
+#S1C0:checked~* .S1C0, #S1C1:checked~* .S1C1, #S1C2:checked~* .S1C2, #S1C3:checked~* .S1C3, #S1C4:checked~* .S1C4, #S1C5:checked~* .S1C5, #S1C6:checked~* .S1C6, #S2C0:checked~* .S2C0, #S2C1:checked~* .S2C1, #S2C2:checked~* .S2C2, #S2C3:checked~* .S2C3, #S2C4:checked~* .S2C4, #S2C5:checked~* .S2C5, #S2C6:checked~* .S2C6, #S3C0:checked~* .S3C0, #S3C1:checked~* .S3C1, #S3C2:checked~* .S3C2, #S3C3:checked~* .S3C3, #S3C4:checked~* .S3C4, #S3C5:checked~* .S3C5, #S3C6:checked~* .S3C6, #S4C0:checked~* .S4C0, #S4C1:checked~* .S4C1, #S4C2:checked~* .S4C2, #S4C3:checked~* .S4C3, #S4C4:checked~* .S4C4, #S4C5:checked~* .S4C5, #S4C6:checked~* .S4C6, #S5C0:checked~* .S5C0, #S5C1:checked~* .S5C1, #S5C2:checked~* .S5C2, #S5C3:checked~* .S5C3, #S5C4:checked~* .S5C4, #S5C5:checked~* .S5C5, #S5C6:checked~* .S5C6 {
+  display: block !important;
+}
