@@ -29,7 +29,8 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 			<script>
 	$("#header_spacer").change(function(){
-         $('#code-example').html('{% highlight html %}{% include mc_header-spacer.html %}{% endhighlight %}');
+		var test = 'mc_header-spacer.html'
+         $('#code-example').html('{% highlight html %}{% include' + test + '%}{% endhighlight %}');
 });
 </script>
 			<script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
