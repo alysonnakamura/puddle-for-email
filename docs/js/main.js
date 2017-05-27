@@ -1,3 +1,3 @@
 $("#header-spacer").change(function(){
-  $("#code-example).html('Hello World');
+  $("#code-example).html('Hello World')
 });
