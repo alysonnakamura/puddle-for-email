@@ -3,6 +3,12 @@ layout: builder
 title: Home
 ---
 
+<script>
+	$("#header_spacer").change(function(){
+  $("#code-example").html('{% highlight html %}{% include mc_header-spacer.html %}{% endhighlight %}')
+});
+</script>
+
 <input type="radio" class="test-control" name="test" value="mc_header-spacer.html" id="header_spacer">
       <label for="header_spacer">Header - spacer</label>
 
