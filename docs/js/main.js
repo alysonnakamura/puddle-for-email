@@ -1,3 +1,3 @@
-$("#header-spacer").change(function(){
+$("#header-spacer").click(function(){
   $("#code-example").html('Hello World')
 });
