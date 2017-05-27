@@ -30,7 +30,7 @@
 			<script>
 	$("#header_spacer").change(function(){
 		var test = $("input[name=test]:checked").val();
-         $('#code-example').html('{% highlight html %}{% include' + test + '%}{% endhighlight %}');
+         $('#code-example').html('{% highlight html %}{% include mc_header-spacer.html %}{% endhighlight %}');
 });
 </script>
 			<script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
