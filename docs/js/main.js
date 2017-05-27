@@ -1,3 +1,3 @@
-$("#header-spacer").click(function(){
-  $("#code-example").html('Hello World')
+$("#header-spacer").change(function(){
+  $("#code-example").addClass('hide')
 });
