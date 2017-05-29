@@ -7,7 +7,7 @@ $(document).ready(function(){
             if(radioValue){
             {% capture component_variable %}radioValue{% endcapture %}
              }
-            {{ component_variable }}';
+            {{ component_variable }}
         });
         
     });
