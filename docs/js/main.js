@@ -1,10 +1,12 @@
 ---
-test: mc_header-spacer.html
-
+ 
 ---
+
+{% capture component_variable %}$( document ).ready(function() {
+    $('input[name=test]:checked').val();
+});{% endcapture %}
  
 $("#header_spacer").change(function(){
-{% capture component_variable %}{{ page.test }}{% endcapture %}
 var mc_header_spacer ='{% highlight html %}{% include {{ component_variable }} %}{% endhighlight %}';
 $('#code-example').html(mc_header_spacer);
 });
