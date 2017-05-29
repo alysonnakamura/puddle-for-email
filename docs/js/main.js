@@ -3,7 +3,7 @@
 ---
 $(document).ready(function(){
         $("input[type='button']").click(function(){
-            var test = {% capture test_var %}{% raw %}$("input[name='test']:checked").val();{% endraw %}{% endcapture %}
+            {% capture test_var %}{% raw %} mc_header-spacer.html {% endraw %}{% endcapture %}
             var post ='{% highlight html %}{% include {{ test_var | jsonify }} %}{% endhighlight %}'
             $('#test').html(post);
         });
