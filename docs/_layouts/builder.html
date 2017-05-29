@@ -28,7 +28,8 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 			<script>
 	$("#header_spacer").change(function(){
-		var mc_header_spacer = '{% highlight html %}{% include mc_header-spacer.html %}{% endhighlight %}';
+		    {% capture component_variable %}$('input[name=test]:checked').val(){% endcapture %}
+		var mc_header_spacer ='{% highlight html %}{% include mc.html content=component_variable %}{% endhighlight %}';
          $('#code-example').html(mc_header_spacer);
 });
 </script>
