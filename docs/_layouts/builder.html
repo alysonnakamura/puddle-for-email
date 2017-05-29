@@ -5,7 +5,6 @@
 			 <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}" />
 			 <link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}" />
 			 <link rel="stylesheet" href="{{ "/css/email-styles.css" | prepend: site.baseurl }}" />
-			 <link rel="stylesheet" href="{{ "/css/email-styles.css" | prepend: site.baseurl }}" />
 		</head>
 		<body>
 			<nav>
@@ -29,8 +28,8 @@
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 			<script>
 	$("#header_spacer").change(function(){
-		var html= $('input[name=test]:checked').val(),
-		mc_header_spacer = '{% highlight html %}{% include mc_header-spacer.html %}{% endhighlight %}';
+		var html= $('input[name=test]:checked').val();
+		var mc_header_spacer = {% highlight html %}{% include mc_header-spacer.html %}{% endhighlight %};
          $('#code-example').html(html);
 });
 </script>
