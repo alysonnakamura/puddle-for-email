@@ -3,7 +3,8 @@
 ---
  
 $("#header_spacer").change(function(){
-{% capture component_variable %}{{ 'mc_header-spacer.html' }}{% endcapture %}
+var test = $('input[name=test]:checked').val();
+{% capture component_variable %}{{ test }}{% endcapture %}
 var mc_header_spacer ='{% highlight html %}{% include {{ component_variable }} %}{% endhighlight %}';
 $('#code-example').html(mc_header_spacer);
 });
