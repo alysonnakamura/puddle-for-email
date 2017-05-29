@@ -3,9 +3,10 @@
 ---
 $(document).ready(function(){
         $("input[type='button']").click(function(){
-            {% capture component_variable %} mc_header-spacer.html {% endcapture %}
-            var post ='{% highlight html %}{% include { component_variable } %}{% endhighlight %}';
-            $('#test').html(post);
+            var test = $('input[name=test]:checked').val()
+            {% capture component_variable %} test {% endcapture %}
+            {{ component_variable | jsonify }}
+            $('#test').html(test);
         });
         
     });
