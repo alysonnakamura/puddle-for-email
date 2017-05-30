@@ -1,0 +1,90 @@
+<!-- NAV ON BOTTOM  -->
+<div id="header_nav-bottom">
+	<table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper" mc:repeatable mc:variant="Header - Nav bottom">
+		<tr>
+			<td>
+				<table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper">
+					<tr>
+						<td>
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+								<tr>
+									<td height="25" class="fix_height"> </td>
+								</tr>
+								<tr>
+									<td>
+										<table width="250" border="0" cellspacing="0" cellpadding="0" align="left" class="wrapper">
+											<tr>
+												<td class="cw-black" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:12px;line-height:15px;color:#333333;" align="left" mc:edit="header_nav-bottom-help-text">
+													<span style="display:inline-block; height:0px; font-size:0px; mso-hide:all;">Preview Text</span><span class="cw-black">Can’t see this email?</span>
+												</td>
+											</tr>
+										</table>
+										<table width="250" border="0" cellspacing="0" cellpadding="0" align="right" class="wrapper">
+											<tr>
+												<td class="cw-blue" style="font-family:'Proxima Nova', 'Open Sans', Arial, sans-serif;font-size:12px;line-height:15px;color:#369ff4;" align="right" mc:edit="header_nav-bottom-view-link">
+													<a href="*|ARCHIVE|*" target="_blank" style="color:#369ff4;text-decoration:none;">View it in your browser.</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<tr>
+									<td height="25" class="fix_height"> </td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff">
+				<table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper">
+					<tr>
+						<td height="40" class="fix_height"> </td>
+					</tr>
+					<tr>
+						<td align="center">
+							<table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper">
+								<tr>
+									<td width="30" class="hide"> </td>
+									<td align="center">
+										<a href="https://www.charitywater.org/" target="_blank"><img src="https://d2f2byp0zok4br.cloudfront.net/main-logo-lg-black.png" width="138" height="23" alt="charity: water" style="display:block; max-width:138px;" border="0"></a>
+									</td>
+									<td width="30" class="hide"> </td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="30" class="fix_height"> </td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#ffffff" align="center">
+				<table width="650" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper">
+					<tr>
+						<td align="center">
+							<table width="320" border="0" cellspacing="0" cellpadding="0" align="center" class="wrapper">
+								<tr>
+									<td width="110" class="grey-60" style="font-family:'Proxima Nova', Arial, sans-serif;font-size:11px;line-height:17px;color:#71716c;" align="center" mc:edit="header_nav-bottom-nav-link-1"><a href="#" target="_blank" style="color:#71716c;text-decoration:none;text-transform:uppercase;font-weight:bold;">ABOUT US</a>
+									</td>
+									<td width="100" class="grey-60" style="font-family:'Proxima Nova', Arial, sans-serif;font-size:11px;line-height:17px;color:#71716c;" align="center" mc:edit="header_nav-bottom-nav-link-2"><a href="#" target="_blank" style="color:#71716c;text-decoration:none;text-transform:uppercase;font-weight:bold;">SUPPORT</a>
+									</td>
+									<td width="110" class="grey-60" style="font-family:'Proxima Nova', Arial, sans-serif;font-size:11px;line-height:17px;color:#71716c;" align="center" mc:edit="header_nav-bottom-nav-link-3"><a href="#" target="_blank" style="color:#71716c;text-decoration:none;text-transform:uppercase;font-weight:bold;">SIGN IN</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td height="20" style="line-height:1px;font-size:1px;"> </td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</div>
+										<!-- NAV ON BOTTOM //-->
