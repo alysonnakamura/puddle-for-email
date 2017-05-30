@@ -15,7 +15,7 @@
 			<script>
 			$('#generate').click(function(){
 				if($("#header").val() == 'spacer-only'){
-					$('#headerComponent').html('mc_header-spacer.html');
+					$('#headerComponent').html('{% capture headerComponent %}mc_header-spacer.html{% endcapture %}');
 				}
 			});
 			</script>
@@ -23,7 +23,7 @@
 		<body>
 			<div class="container">
 				<div class="row py-4">
-					{% capture headerComponent %}<span id="headerComponent"></span>{% endcapture %}
+					<span id="headerComponent">{% capture headerComponent %}{% endcapture %}</span>
 					{% capture bodyComponents %}mc_hero-image.html{% endcapture %}
 	{%highlight html%}{% include mc_output.html headerParams=headerComponent bodyParams=bodyComponents footerParams="mc_header-spacer.html" %}{% endhighlight %}
 				</div>
