@@ -18,9 +18,8 @@
 			<div class="container">
 				<div class="row py-4">
 					<div class="hidden">
-					{% capture headerComponent %}mc_header-spacer.html{% endcapture %}
 					{% capture bodyComponents %}mc_hero-image.html{% endcapture %}
-	{%highlight html%}{% include mc_output.html headerParams=headerComponent bodyParams=bodyComponents footerParams="mc_header-spacer.html" %}{% endhighlight %}
+	{%highlight html%}{% include mc_output.html headerParams="mc_header-spacer.html" bodyParams=bodyComponents footerParams="mc_header-spacer.html" %}{% endhighlight %}
 					</div>
 					</div>
   <div class="row py-4">
