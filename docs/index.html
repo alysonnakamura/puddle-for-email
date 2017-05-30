@@ -25,13 +25,19 @@
     <div class="col-7 email-wrapper py-4">
 	    <center>
       <div class="btn-group btn-group-sm" role="group">
-  <button type="button" class="btn btn-secondary">MailChimp</button>
-  <button type="button" class="btn btn-secondary" disabled>HTML</button>
-  <button type="button" class="btn btn-secondary" disabled>Emma</button>
-</div>
+				<button type="button" class="btn btn-secondary">MailChimp</button>
+				<button type="button" class="btn btn-secondary" disabled>HTML</button>
+				<button type="button" class="btn btn-secondary" disabled>Emma</button>
+				</div>
 	    </center>
 	{% include mc_header-spacer.html %}
 	{%highlight html%}{% include mc_header-spacer.html %}{% endhighlight %}
+	{% include mc_header-nav-on-bottom.html %}
+	{%highlight html%}{% include mc_header-nav-on-bottom.html %}{% endhighlight %}
+	{% include mc_header-nav-on-right.html %}
+	{%highlight html%}{% include mc_header-nav-on-right.html %}{% endhighlight %}
+	{% include mc_header-logo-only.html %}
+	{%highlight html%}{% include mc_header-logo-only.html %}{% endhighlight %}
     </div>
   </div>
 </div>
