@@ -12,17 +12,25 @@
 			<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+			<script>
+			$('#generate').click(function(){
+				if($("#header").val() == 'spacer-only'){
+					$('#headerComponent').html('mc_header-spacer.html');
+				}
+			});
+			</script>
 		</head>
 		<body>
 			<div class="container">
 				<div class="row py-4">
+					{% capture headerComponent %}<span id="headerComponent"></span>{% endcapture %}
 					{% capture bodyComponents %}mc_hero-image.html{% endcapture %}
-	{%highlight html%}{% include mc_output.html headerParams="mc_header-spacer.html" bodyParams=bodyComponents footerParams="mc_header-spacer.html" %}{% endhighlight %}
+	{%highlight html%}{% include mc_output.html headerParams=headerComponent bodyParams=bodyComponents footerParams="mc_header-spacer.html" %}{% endhighlight %}
 				</div>
   <div class="row py-4">
     <div class="col-4">
 	    <select id="header" class="form-control">
-  <option>Spacer only</option>
+  <option value="spacer-only">Spacer only</option>
   <option>Nav on bottom</option>
   <option>Nav on right</option>
   <option>Logo only</option>
