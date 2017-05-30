@@ -17,7 +17,7 @@
 			<div class="container">
 				<div class="row py-4">
 	{%highlight html%}{% include mc_output.html headerParams="mc_header-spacer.html" bodyParams=bodyComponents footerParams="mc_header-spacer.html" %}{% endhighlight %}
-					{% capture bodyComponents %} mc_hero-image.html {% endcapture %}
+					{% capture bodyComponents %}mc_hero-image.html{% endcapture %}
 				</div>
   <div class="row py-4">
     <div class="col-4">
@@ -55,6 +55,8 @@
 	{%highlight html%}{% include mc_header-nav-on-right.html %}{% endhighlight %}
 	{% include mc_header-logo-only.html %}
 	{%highlight html%}{% include mc_header-logo-only.html %}{% endhighlight %}
+	{% include mc_hero-image.html %}
+	{%highlight html%}{% include mc_hero-image.html %}{% endhighlight %}
 										</td>
 								</tr>
 							</table>
